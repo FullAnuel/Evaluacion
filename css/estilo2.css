@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    }
+
+   .image-box {
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+   }
+
+   .rounded-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+   }
+
+   h2 {
+    margin: 10px 0;
+   }
+
+   p {
+    margin-bottom: 30px;
+   }
+
+   a {
+    top: 10px;
+    padding: 18px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+   }
+
+   a:hover {
+    background-color: #0056b3;
+   }
+
+
+
